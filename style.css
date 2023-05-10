@@ -1,0 +1,98 @@
+body {
+  background-color: #65647C;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #C7BCA1;
+}
+
+h1 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #F1D3B3;
+}
+
+h2 {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #F1D3B3;
+}
+
+a{
+  text-decoration: none;
+  color: #EEE3CB;
+  transition: color 1s;
+}
+
+a:hover{
+  color: #65647C;
+  cursor: pointer;
+}
+
+ul{
+  padding: 0 10px;
+}
+
+li{
+  list-style: none;
+}
+
+.section{
+  width: 1000px;
+  margin: 0 auto;
+  display: center;
+  background-color: #8B7E74;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#profile-pic{
+  object-fit: cover;
+}
+
+.fa-brands{
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.img-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline{
+  display: inline;
+  text-align: center;
+  padding: 0 7px;
+}
+
+@media (max-width: 960px){
+  .section {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+  .section {
+    width: 500px;
+  }
+}
+
+  @media (max-width: 540px){
+    .section {
+      width: 300px;
+    }
+  }
